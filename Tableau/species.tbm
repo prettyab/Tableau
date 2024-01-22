@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1227.1336                               -->
+<bookmark source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <datasources>
+    <datasource caption='iris' inline='true' name='federated.0811u9y1gu03y91506rmg0g98bi8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='iris' name='textscan.1sv8f8f0226mf511ong000xrdvjz'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/DELL/OneDrive/Pictures/iris.csv' dataRefreshTime='' directory='C:/Users/DELL/OneDrive/Pictures' filename='C:/Users/DELL/AppData/Local/Temp/TableauTemp/1atpilq04d97mn1etn03s0em1qkx/iris.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1sv8f8f0226mf511ong000xrdvjz' name='iris.csv' table='[iris#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:E151:no:A1:E151:1' header='yes' locale='en_IN' separator=','>
+            <column datatype='real' name='sepal_length' ordinal='0' />
+            <column datatype='real' name='sepal_width' ordinal='1' />
+            <column datatype='real' name='petal_length' ordinal='2' />
+            <column datatype='real' name='petal_width' ordinal='3' />
+            <column datatype='string' name='species' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1sv8f8f0226mf511ong000xrdvjz' name='iris.csv' table='[iris#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:E151:no:A1:E151:1' header='yes' locale='en_IN' separator=','>
+            <column datatype='real' name='sepal_length' ordinal='0' />
+            <column datatype='real' name='sepal_width' ordinal='1' />
+            <column datatype='real' name='petal_length' ordinal='2' />
+            <column datatype='real' name='petal_width' ordinal='3' />
+            <column datatype='string' name='species' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[iris.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E151:no:A1:E151:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>600</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sepal_length</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sepal_length]</local-name>
+            <parent-name>[iris.csv]</parent-name>
+            <remote-alias>sepal_length</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[iris.csv_0DCC92902654470B8D268DE0E5BADA62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sepal_width</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sepal_width]</local-name>
+            <parent-name>[iris.csv]</parent-name>
+            <remote-alias>sepal_width</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[iris.csv_0DCC92902654470B8D268DE0E5BADA62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>petal_length</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[petal_length]</local-name>
+            <parent-name>[iris.csv]</parent-name>
+            <remote-alias>petal_length</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[iris.csv_0DCC92902654470B8D268DE0E5BADA62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>petal_width</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[petal_width]</local-name>
+            <parent-name>[iris.csv]</parent-name>
+            <remote-alias>petal_width</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[iris.csv_0DCC92902654470B8D268DE0E5BADA62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>species</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[species]</local-name>
+            <parent-name>[iris.csv]</parent-name>
+            <remote-alias>species</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[iris.csv_0DCC92902654470B8D268DE0E5BADA62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='real' name='[Calculation_1650850783780384772]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[sepal_width]' />
+      </column>
+      <column caption='Sepal Length (bin)' datatype='integer' name='[Sepal Length (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='-2' formula='[sepal_length]' peg='0' size='0.33' />
+      </column>
+      <column datatype='string' name='[Sepal Width (group)]' role='dimension' type='ordinal'>
+        <calculation class='categorical-bin' column='[sepal_width]' new-bin='true' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='iris.csv' datatype='table' name='[__tableau_internal_object_id__].[iris.csv_0DCC92902654470B8D268DE0E5BADA62]' role='measure' type='quantitative' />
+      <column caption='Petal Length' datatype='real' name='[petal_length]' role='measure' type='quantitative' />
+      <column caption='Petal Width' datatype='real' name='[petal_width]' role='measure' type='quantitative' />
+      <column caption='Sepal Length' datatype='real' name='[sepal_length]' role='measure' type='quantitative' />
+      <column caption='Sepal Width' datatype='real' name='[sepal_width]' role='measure' type='quantitative' />
+      <column caption='Species' datatype='string' name='[species]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='sepal_length' />
+        <field-sort-custom-order field='sepal_width' />
+        <field-sort-custom-order field='Calculation_1650850783780384772' />
+        <field-sort-custom-order field='petal_length' />
+        <field-sort-custom-order field='petal_width' />
+        <field-sort-custom-order field='species' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field='Sepal Width (group)' />
+        <field-sort-custom-order field='Sepal Length (bin)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='iris.csv' id='iris.csv_0DCC92902654470B8D268DE0E5BADA62'>
+            <properties context=''>
+              <relation connection='textscan.1sv8f8f0226mf511ong000xrdvjz' name='iris.csv' table='[iris#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:E151:no:A1:E151:1' header='yes' locale='en_IN' separator=','>
+                  <column datatype='real' name='sepal_length' ordinal='0' />
+                  <column datatype='real' name='sepal_width' ordinal='1' />
+                  <column datatype='real' name='petal_length' ordinal='2' />
+                  <column datatype='real' name='petal_width' ordinal='3' />
+                  <column datatype='string' name='species' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <window>
+    <cards>
+      <edge name='left'>
+        <strip size='160'>
+          <card type='pages' />
+          <card type='filters' />
+          <card type='marks' />
+        </strip>
+      </edge>
+      <edge name='top'>
+        <strip size='2147483647'>
+          <card type='columns' />
+        </strip>
+        <strip size='2147483647'>
+          <card type='rows' />
+        </strip>
+        <strip size='2147483647'>
+          <card type='title' />
+        </strip>
+      </edge>
+      <edge name='right'>
+        <strip size='160'>
+          <card pane-specification-id='0' param='[federated.0811u9y1gu03y91506rmg0g98bi8].[none:species:nk]' type='color' />
+          <card param='[federated.0811u9y1gu03y91506rmg0g98bi8].[none:species:nk]' type='highlighter' />
+          <card mode='slider' param='[Parameters].[Parameter 1]' type='parameter' />
+        </strip>
+      </edge>
+    </cards>
+    <viewpoint>
+      <zoom type='fit-width' />
+      <highlight>
+        <color-one-way>
+          <field>[federated.0811u9y1gu03y91506rmg0g98bi8].[Sepal Width (group)]</field>
+          <field>[federated.0811u9y1gu03y91506rmg0g98bi8].[none:species:nk]</field>
+        </color-one-way>
+      </highlight>
+    </viewpoint>
+    <simple-id uuid='{B875B2F7-6B29-459D-A749-982F7F559B96}' />
+  </window>
+  <table>
+    <view>
+      <datasources>
+        <datasource caption='iris' name='federated.0811u9y1gu03y91506rmg0g98bi8' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0811u9y1gu03y91506rmg0g98bi8'>
+        <column-instance column='[species]' derivation='None' name='[none:species:nk]' pivot='key' type='nominal' />
+        <column-instance column='[petal_length]' derivation='Sum' name='[pcto:sum:petal_length:qk]' pivot='key' type='quantitative'>
+          <table-calc ordering-type='Table' type='PctTotal' />
+        </column-instance>
+        <column-instance column='[petal_width]' derivation='Sum' name='[pcto:sum:petal_width:qk]' pivot='key' type='quantitative'>
+          <table-calc ordering-type='Table' type='PctTotal' />
+        </column-instance>
+        <column caption='Petal Length' datatype='real' name='[petal_length]' role='measure' type='quantitative' />
+        <column caption='Petal Width' datatype='real' name='[petal_width]' role='measure' type='quantitative' />
+        <column caption='Species' datatype='string' name='[species]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <aggregation value='true' />
+    </view>
+    <style>
+      <style-rule element='table'>
+        <format attr='background-color' value='#f9e9e0' />
+      </style-rule>
+      <style-rule element='refline'>
+        <format attr='stroke-color' id='refline0' value='#000000' />
+      </style-rule>
+    </style>
+    <panes>
+      <pane selection-relaxation-option='selection-relaxation-allow'>
+        <view>
+          <breakdown value='auto' />
+        </view>
+        <mark class='Circle' />
+        <encodings>
+          <size column='[federated.0811u9y1gu03y91506rmg0g98bi8].[pcto:sum:petal_length:qk]' />
+          <text column='[federated.0811u9y1gu03y91506rmg0g98bi8].[none:species:nk]' />
+          <color column='[federated.0811u9y1gu03y91506rmg0g98bi8].[none:species:nk]' />
+          <lod column='[federated.0811u9y1gu03y91506rmg0g98bi8].[pcto:sum:petal_width:qk]' />
+        </encodings>
+        <style>
+          <style-rule element='mark'>
+            <format attr='mark-labels-show' value='true' />
+            <format attr='mark-labels-cull' value='true' />
+            <format attr='mark-labels-line-first' value='true' />
+            <format attr='mark-labels-line-last' value='true' />
+            <format attr='mark-labels-range-min' value='true' />
+            <format attr='mark-labels-range-max' value='true' />
+            <format attr='mark-labels-mode' value='all' />
+            <format attr='mark-labels-range-scope' value='pane' />
+            <format attr='mark-labels-range-field' value='' />
+          </style-rule>
+        </style>
+      </pane>
+    </panes>
+    <rows />
+    <cols />
+    <percentages enabled='true' mode='table' />
+  </table>
+</bookmark>
